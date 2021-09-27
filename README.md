@@ -33,13 +33,13 @@ This repository contains the cheat sheet for the Day 2 session of Git-Learning V
 - **git reset --soft id**                  : resets the branch to the commit 'id' and all the files related to this commit are in staged area.
 - **git reset --hard id**                  : resets the branch to the commit 'id' and all the files are totally deleted.
 - **git reset HEAD~n**                     : resets last n number of commits.
+- **git reset --hard upstream/main**       : reset all branches from upstream to origin
 
 ### Git revert Commands
 - **git revert id**                        : to perform inverse operation of this commit and create a new commit.
 
 ### Git rebase Commands
 - **git rebase -i id**                     : merge commits and open a new window. In that window pick is used for main commit and squash is used for all commits which are merging.
-- **git reset --hard upstream/main**       : reset all branches from upstream to origin
 
 ### Git stash commands
 - **git stash**                            : it is used to store file in temporary memory.
